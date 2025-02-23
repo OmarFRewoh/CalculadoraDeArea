@@ -8,4 +8,8 @@ public class AreaCalculator {
     }
 
     // Añadir métodos para calcular el área de un rectángulo y un triángulo
+    public static double rectangleArea(double base,double height) {
+        return base * height;
+    }
+
 }
