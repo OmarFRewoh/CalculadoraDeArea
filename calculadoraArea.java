@@ -12,4 +12,7 @@ public class AreaCalculator {
         return base * height;
     }
 
+    public static double triangleArea(double base, double height) {
+        return (base * height)/2;
+    }
 }
